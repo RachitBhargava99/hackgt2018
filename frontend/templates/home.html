@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% block content %}
+	<img src='https://snag.gy/g8qdWM.jpg' class="center" width=200 height=109>
+	<h1> Travel Location Suggestions </h1>
+	<br>
+	{% for post in posts %}
+		<!-- Posts Bootstrap -->
+		<article class="media content-section">
+			<div class="media-body">
+		    	<h2><a class="article-title" href="#">{{ post.name }}</a></h2>
+		    	<p class="article-content">Address: {{ post.address }}</p>
+		    	<a href="https://lyft.com/ride?id=lyft&pickup%5Blatitude%5D={{ gps_lat }}&pickup%5Blongitude%5D={{ gps_lon }}&destination%5Blatitude%5D={{ post.lyft_lat }}&destination%5Blongitude%5D={{ post.lyft_lon }}&partner=FAHvMqPLgdmk" target="_blank">
+  					<img src="https://snag.gy/d3yFK6.jpg " width = 90 height = 30>
+				</a>
+			</div>
+		</article>
+	{% endfor %}
+	<img src="{{ maps_image }}">
+{% endblock %}

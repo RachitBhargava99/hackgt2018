@@ -1,0 +1,80 @@
+{
+	"rows": [ {
+			"id": 0,
+			"name": "Georgia Aquarium",
+			"address": "225 Baker Street, Atlanta, GA 30313",
+			"thrill": 5,
+			"active": 4,
+			"engage": 9,
+			"explore": 6,
+			"vibe": 3,
+			"coordinates": "33.763500, -84.395110"
+		},
+		{
+			"id": 1,
+			"name": "World of Coca-Cola",
+			"address": "121 Baker Street NW, Atlanta, GA 30313",
+			"thrill": 3,
+			"active": 4,
+			"engage": 8,
+			"explore": 8,
+			"vibe": 4,
+			"coordinates": "33.762230, -84.391470"
+		},
+		{
+			"id": 2,
+			"name": "Center for Civil and Human Rights",
+			"address": "100 Ivan Allen Jr. Blvd, Atlanta, GA 30308",
+			"thrill": 4,
+			"active": 4,
+			"engage": 7,
+			"explore": 10,
+			"vibe": 2,
+			"coordinates": "33.764400, -84.392780"
+		},
+		{
+			"id": 3,
+			"name": "Fox Theatre",
+			"address": "660 Peachtree Street NE, Atlanta, GA 30308",
+			"thrill": 2,
+			"active": 2,
+			"engage": 5,
+			"explore": 8,
+			"vibe": 6,
+			"coordinates": "33.772660, -84.384950"
+		},
+		{
+			"id": 4,
+			"name": "Atlanta Botanical Gardens",
+			"address": "1345 Piedmont Ave NE, Atlanta, GA 30309",
+			"thrill": 2,
+			"active": 6,
+			"engage": 8,
+			"explore": 6,
+			"vibe": 4,
+			"coordinates": "33.789970, -84.372650"
+		},
+		{
+			"id": 5,
+			"name": "Martin Luther King Jr. National Historic Site",
+			"address": "450 Auburn Avenue NE, Atlanta, GA 30312",
+			"thrill": 1,
+			"active": 3,
+			"engage": 5,
+			"explore": 9,
+			"vibe": 1,
+			"coordinates": "33.756380, -84.373200"
+		},
+		{
+			"id": 6,
+			"name": "SkyLounge",
+			"address": "110 Marietta St NW, Atlanta, GA 30303",
+			"thrill": 2,
+			"active": 1,
+			"engage": 1,
+			"explore": 1,
+			"vibe": 10,
+			"coordinates": "33.7647985, -84.399137"
+		}
+	]
+}
